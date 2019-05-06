@@ -1,0 +1,200 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #8bc34a;
+    align-items: center; 
+    display: flex; 
+}
+.header__logo{
+    width: 400px;
+    height: 100px;
+    margin: 0 auto; 
+}
+
+.header__logo-img{
+    width: 200px;
+    height: 50px;
+    margin: 20px auto; 
+}
+
+.header__searchbar {
+    width: 935px;
+    height: 55px;
+    border-radius: 10px 0px 0px 10px;
+    position: relative; 
+    border: solid 1px #000000;
+    background-color: #eaf0e4;
+}
+
+.header__searchbar-txt {
+    width: 385px;
+    height: 20px;
+    font-family: SegoeUI;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #020400;
+    position: absolute; 
+    top: 15px; 
+    left: 15px; 
+}
+
+.header__searchbar__icon {
+    width: 50px;
+    height: 55px;
+    border-radius: 0px 10px 10px 0px;
+    border: solid 1px #000000;
+    background-color: #eaf0e4;
+}
+
+.header__searchbar__icon-img {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.header__user-img{
+    margin-left: 44px; 
+}
+
+.header__name{
+    width: 134px;
+    height: 24px;
+    font-family: SegoeUI;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #020400;
+    text-decoration: underline; 
+    margin-left: 50px; 
+}
+.header__logout{
+    width: 165px;
+  height: 25px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6a6d67;
+  text-decoration: underline;
+  margin-left: 40px; 
+}
+
+.header__menu{
+    width: 100%;
+  height: 80px;
+  border: solid 1px #8bc34a;
+  background-color: #eaf0e4;
+}
+
+.header__menu-button1{
+    margin-left: 420px; 
+    text-align: center; 
+    width: 270px;
+    border: none; 
+    height: 80px;
+    background-color: #eaf0e4;
+}
+.header__menu-button1:hover{
+    background-color: #8bc34a; 
+}
+
+.header__menu-button2{
+    width: 270px;
+    height: 80px;
+    border: none; 
+    text-align: center; 
+    background-color: #eaf0e4;
+}
+
+.header__menu-button2:hover{
+    background-color: #8bc34a; 
+}
+
+.header__menu-button3{
+    width: 270px;
+    height: 80px;
+    border: none; 
+    text-align: center; 
+    background-color: #eaf0e4;
+}
+.header__menu-button3:hover{
+    background-color: #8bc34a; 
+}
+
+.header__menu-button4{
+    width: 270px;
+    height: 80px;
+    text-align: center; 
+    border: none; 
+    background-color: #eaf0e4;
+}
+.header__menu-button4:hover{
+    background-color: #8bc34a; 
+}
+.header__menu-button1-txt{
+    width: 125px;
+  height: 23px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+.header__menu-button2-txt{
+    width: 125px;
+  height: 23px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+.header__menu-button3-txt{
+    width: 125px;
+  height: 23px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+.header__menu-button4-txt{
+    width: 125px;
+  height: 23px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+

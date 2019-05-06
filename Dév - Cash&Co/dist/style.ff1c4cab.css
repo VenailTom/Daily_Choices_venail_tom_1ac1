@@ -1,0 +1,610 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #8bc34a;
+  align-items: center;
+  display: flex;
+}
+
+.header__logo {
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.header__logo-img {
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+}
+
+.header__searchbar {
+  width: 935px;
+  height: 55px;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  border: solid 1px #000000;
+  background-color: #eaf0e4;
+}
+
+.header__searchbar-txt {
+  width: 385px;
+  height: 20px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.header__searchbar__icon {
+  width: 50px;
+  height: 55px;
+  border-radius: 0px 10px 10px 0px;
+  border: solid 1px #000000;
+  background-color: #eaf0e4;
+}
+
+.header__searchbar__icon-img {
+  width: 35px;
+  height: 35px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.header__user-img {
+  margin-left: 44px;
+}
+
+.header__name {
+  width: 134px;
+  height: 24px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+  text-decoration: underline;
+  margin-left: 50px;
+}
+
+.header__logout {
+  width: 165px;
+  height: 25px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6a6d67;
+  text-decoration: underline;
+  margin-left: 40px;
+}
+
+.header__menu {
+  width: 100%;
+  height: 80px;
+  border: solid 1px #8bc34a;
+  background-color: #eaf0e4;
+}
+
+.header__menu-button1 {
+  margin-left: 420px;
+  text-align: center;
+  width: 270px;
+  border: none;
+  height: 80px;
+  background-color: #eaf0e4;
+}
+
+.header__menu-button1:hover {
+  background-color: #8bc34a;
+}
+
+.header__menu-button2 {
+  width: 270px;
+  height: 80px;
+  border: none;
+  text-align: center;
+  background-color: #eaf0e4;
+}
+
+.header__menu-button2:hover {
+  background-color: #8bc34a;
+}
+
+.header__menu-button3 {
+  width: 270px;
+  height: 80px;
+  border: none;
+  text-align: center;
+  background-color: #eaf0e4;
+}
+
+.header__menu-button3:hover {
+  background-color: #8bc34a;
+}
+
+.header__menu-button4 {
+  width: 270px;
+  height: 80px;
+  text-align: center;
+  border: none;
+  background-color: #eaf0e4;
+}
+
+.header__menu-button4:hover {
+  background-color: #8bc34a;
+}
+
+.header__menu-button1-txt {
+  width: 125px;
+  height: 23px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+
+.header__menu-button2-txt {
+  width: 125px;
+  height: 23px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+
+.header__menu-button3-txt {
+  width: 125px;
+  height: 23px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+
+.header__menu-button4-txt {
+  width: 125px;
+  height: 23px;
+  font-family: SegoeUI;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+
+.footer {
+  width: 100%;
+  height: 230px;
+  border: solid 1px #8bc34a;
+  background-color: #eaf0e4;
+  display: flex;
+}
+
+.footer__firstcolumn {
+  margin-left: 430px;
+  width: 200px;
+  height: 180px;
+}
+
+.footer__secondcolumn {
+  margin-left: 325px;
+  width: 200px;
+  height: 180px;
+}
+
+.footer__thirdcolumn {
+  margin-left: 115px;
+  margin-top: 5px;
+  width: 200px;
+  height: 180px;
+}
+
+.footer__thirdcolumn-txt {
+  width: 200px;
+  height: 47px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+
+.footer__firstcolumn-txt {
+  width: 220px;
+  height: 25px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+  text-decoration: none;
+}
+
+.footer__secondcolumn-txt {
+  width: 220px;
+  height: 25px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+  text-decoration: none;
+}
+
+.footer__thirdcolumn-logo {
+  margin: 20px 5px;
+}
+
+.main {
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.main__leftside {
+  width: 350px;
+  height: 620px;
+  border: solid 1px #8bc34a;
+  background-color: #eaf0e4;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.main__leftside-seeall {
+  width: 93px;
+  height: 22px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8bc34a;
+  margin-left: 240px;
+  margin-top: 70px;
+}
+
+.main__leftside-categorie {
+  position: absolute;
+  top: 0;
+}
+
+.main__leftside-txt {
+  width: 108px;
+  height: 27px;
+  font-family: Segoe UI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 26px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #080808;
+}
+
+.main__rightside {
+  width: 350px;
+  margin-top: 50px;
+  height: 620px;
+  border: solid 1px #8bc34a;
+  margin-left: 70px;
+  background-color: #eaf0e4;
+  margin-bottom: 50px;
+}
+
+.main__rightside__1st-img {
+  width: 285px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.main__rightside__1st-txt {
+  width: 230px;
+  height: 45px;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #020400;
+  margin-left: 60px;
+}
+
+.main__rightside__2nd-img {
+  width: 180px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.main__rightside__2nd-txt {
+  width: 230px;
+  height: 45px;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #020400;
+  margin-left: 60px;
+}
+
+.main__rightside-seeall {
+  width: 240px;
+  height: 50px;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #8bc34a;
+  margin-left: 100px;
+}
+
+.main__middle {
+  width: 1080px;
+  margin-left: 70px;
+  height: 620px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.slider {
+  width: 1079px;
+  height: 282px;
+  border: solid 1px #8bc34a;
+  background-color: #eaf0e4;
+  position: relative;
+}
+
+.second {
+  display: none;
+}
+
+.third {
+  display: none;
+}
+
+.arrow_left {
+  position: absolute;
+  left: 0;
+  top: 125px;
+}
+
+.arrow_right {
+  position: absolute;
+  right: 0;
+  top: 125px;
+}
+
+.main__middle__content {
+  width: 1079px;
+  height: 142px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main__middle__recommendation {
+  width: 1079px;
+  height: 102px;
+  border: solid 1px #8bc34a;
+  background-color: #eaf0e4;
+  margin-top: 15px;
+}
+
+.main__middle__recommendation-txt {
+  width: 205px;
+  height: 18px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8bc34a;
+}
+
+.main__middle__recommendation-img {
+  width: 80px;
+  height: 60px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.main__middle__recommendation-seeall {
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8bc34a;
+  margin-left: 980px;
+}
+
+.content__help {
+  margin-left: 420px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.content1 {
+  margin-left: 422px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.content1__title {
+  width: 498px;
+  height: 24px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8bc34a;
+}
+
+.content1__img {
+  position: absolute;
+  bottom: 50px;
+  right: 300px;
+}
+
+.content1__txt {
+  width: 506px;
+  height: 225px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+
+.content2 {
+  margin-left: 422px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.content2__title {
+  width: 498px;
+  height: 24px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8bc34a;
+}
+
+.content2__img {
+  position: absolute;
+  bottom: 50px;
+  right: 300px;
+}
+
+.content2__txt {
+  width: 506px;
+  height: 225px;
+  font-family: SegoeUI;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #020400;
+}
+
+.content2__button {
+  width: 212px;
+  height: 70px;
+  border-radius: 10px;
+  border: solid 1px #eaf0e4;
+  background-color: #8bc34a;
+  position: absolute;
+  right: 55px;
+  top: 150px;
+}
+
+.content {
+  margin-top: 53px;
+  margin-left: 423px;
+  margin-bottom: 30px;
+}
+
+.content__forum {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */

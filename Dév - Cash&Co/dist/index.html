@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.ff1c4cab.css">
+    <title>Cash&Co</title>
+
+    <script>var slide = document.getElementsByClassName('slide');
+var arrowRight = document.getElementsByClassName('arrow_right');
+var arrowLeft = document.getElementsByClassName('arrow_left');
+var first = document.getElementsByClassName('first');
+var movieDisplayed = 0;
+
+function slide_right() {
+  movieDisplayed = movieDisplayed === slide.length - 1 ? 0 : movieDisplayed + 1;
+
+  for (var slideIndex = 0; slideIndex < slide.length; slideIndex++) {
+    if (slideIndex === movieDisplayed) {
+      slide[slideIndex].style.display = 'block';
+    } else {
+      slide[slideIndex].style.display = 'none';
+    }
+  }
+}
+
+function slide_left() {
+  movieDisplayed = movieDisplayed === 0 ? slide.length - 1 : movieDisplayed - 1;
+
+  for (var slideIndex = 0; slideIndex < slide.length; slideIndex++) {
+    if (slideIndex === movieDisplayed) {
+      slide[slideIndex].style.display = 'block';
+    } else {
+      slide[slideIndex].style.display = 'none';
+    }
+  }
+}</script>
+
+<script src="/style.ff1c4cab.js"></script></head>
+
+<body>
+    <div class="header">
+        <div class="header__logo">
+            <a href="/index.html"><img class="header__logo-img" src="/logo.3f4a1874.png" alt="Cash&Co"></a>
+        </div>
+
+        <div class="header__searchbar">
+            <span class="header__searchbar-txt">Rechercher un article, un marchand...</span>
+
+        </div>
+        <div class="header__searchbar__icon">
+            <img class="header__searchbar__icon-img" src="/magnifier.25f554c0.png" alt="Rechercher">
+        </div>
+
+        <div class="header__user">
+            <a href="/profil.html"><img class="header__user-img" src="/anon.278e6f52.png"></a>
+        </div>
+
+        <a href="/profil.html"><span class="header__name">Tom : 10,50€</span></a>
+        <span class="header__logout">Se déconnecter</span>
+    </div>
+
+    <div class="header__menu">
+        <a href="/index.html"><button class="header__menu-button1"><span class="header__menu-button1-txt">Cashback</span></button></a>
+        <a href="/extension.html"><button class="header__menu-button2"><span class="header__menu-button2-txt">Extension</span></button></a>
+        <a href="/forum.html"><button class="header__menu-button3"><span class="header__menu-button3-txt">Forum</span></button></a>
+        <a href="/help.html"><button class="header__menu-button4"><span class="header__menu-button4-txt">Assistance</span></button></a>
+    </div>
+
+
+
+    <div class="main">
+        <div class="main__leftside">
+            <img class="main__leftside-lines" src="/lines.711fba4c.png" alt="lines">
+            <div class="main__leftside-categorie">
+                <a href="#">
+                    <p class="main__leftside-txt">Alimentation</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Électroménagers</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Énergie</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Textile</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Maroquinerie</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Meubles</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Immobiliers</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Transport</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Jardinage</p>
+                </a>
+                <a href="#">
+                    <p class="main__leftside-txt">Urbanisme</p>
+                </a>
+            </div>
+            <a href="#">
+                <p class="main__leftside-seeall">Voir tout</p>
+            </a>
+        </div>
+
+
+        <div class="main__middle">
+            <div class="slider">
+
+                <img onclick="slide_left()" src="/left.0da6dc1f.png" class="arrow_left" alt="left_arrow">
+                <img onclick="slide_right()" src="/right.af4c7884.png" class="arrow_right" alt="right_arrow">
+
+                <div class="slide first">
+                    <a href="#">
+                        <img src="/steakvegetal.4d82f5e7.png" class="main__middle__1st-slider">
+                    </a>
+                </div>
+
+                <div class="slide second">
+                    <a href="#">
+                        <img src="/energie.40f7ad5a.png" class="main__middle__1st-slider">
+                    </a>
+                </div>
+
+                <div class="slide third">
+                    <a href="#">
+                        <img src="/ampoule.a6b62797.png" class="main__middle__1st-slider">
+                    </a>
+                </div>
+
+            </div>
+            <div class="main__middle__content">
+                <img src="/fav.475f8f63.png">
+            </div>
+
+            <span class="main__middle__recommendation-txt">Recommandations</span>
+            <div class="main__middle__recommendation">
+
+                <a href="#">
+                    <img class="main__middle__recommendation-img" src="/orangetiny.574c9b4e.png">
+                </a>
+                <a href="#">
+                    <img class="main__middle__recommendation-img" src="/orangetiny.574c9b4e.png">
+                </a>
+                <a href="#">
+                    <img class="main__middle__recommendation-img" src="/orangetiny.574c9b4e.png">
+                </a>
+                <a href="#">
+                    <img class="main__middle__recommendation-img" src="/orangetiny.574c9b4e.png">
+                </a>
+                <a href="#">
+                    <img class="main__middle__recommendation-img" src="/orangetiny.574c9b4e.png">
+                </a>
+                <a href="#">
+                    <img class="main__middle__recommendation-img" src="/orangetiny.574c9b4e.png">
+                </a>
+                <a href="#">
+                    <img class="main__middle__recommendation-img" src="/orangetiny.574c9b4e.png">
+                </a>
+                <a href="#">
+                    <span class="main__middle__recommendation-seeall">Voir tout</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="main__rightside">
+            <a href="#">
+                <img class="main__rightside__1st-img" src="/teslax.06986f06.png" alt="Tesla X">
+            </a>
+            <p class="main__rightside__1st-txt">Tesla model X - 85000€;
+                0.5% de cashback</p>
+            <a href="#">
+                <img class="main__rightside__2nd-img" src="/orange.d0c404da.png" alt="orange">
+            </a>
+            <p class="main__rightside__2nd-txt">1 Kilo d’orange - 2€ -
+                Cashback 10%</p>
+
+            <a href="#">
+                <p class="main__rightside-seeall">Voir toutes nos ventes exceptionnelles</p>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="footer__firstcolumn">
+            <a href="#">
+                <p class="footer__firstcolumn-txt">À propos de Cash&Co</p>
+            </a>
+            <a href="#">
+                <p class="footer__firstcolumn-txt">Comment ça marche ?</p>
+            </a>
+            <a href="#">
+                <p class="footer__firstcolumn-txt">Foire aux questions</p>
+            </a>
+            <a href="#">
+                <p class="footer__firstcolumn-txt">Conditions générales</p>
+            </a>
+        </div>
+
+        <div class="footer__secondcolumn">
+            <a href="#">
+                <p class="footer__secondcolumn-txt">Mentions légales</p>
+            </a>
+            <a href="/forum.html">
+                <p class="footer__secondcolumn-txt">Forum</p>
+            </a>
+            <a href="/extension.html">
+                <p class="footer__secondcolumn-txt">Extension</p>
+            </a>
+            <a href="/help.html">
+                <p class="footer__secondcolumn-txt">Service client</p>
+            </a>
+        </div>
+        <div class="footer__thirdcolumn">
+            <h2 class="footer__thirdcolumn-txt">Suivez-nous sur les réseaux sociaux !</h2>
+            <a href="#"><img class="footer__thirdcolumn-logo" src="/facebook.d931eab2.png" alt="facebook"></a>
+            <a href="#"><img class="footer__thirdcolumn-logo" src="/Instagram.d99dcb2c.png" alt="Instagram"></a>
+            <a href="#"><img class="footer__thirdcolumn-logo" src="/Twitter.2edfcea4.png" alt="Twitter"></a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="/scripts.bcf3243b.js"></script>
+</body>
+
+</html>
